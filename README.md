@@ -7,10 +7,10 @@
 Clonar el repositorio
 ```
 ```
-Ejecutar la consola con npm install (se instalaran los paquetes necesarios)
+Ejecutar la consola con "npm install" (se instalaran los paquetes necesarios)
 ```
 ```
-Ejecutar node src/index.js
+Ejecutar "node src/index.js"
 ```
 ## Construido con 🛠️
 
