@@ -7,3 +7,7 @@
 * **Node.JS**
 * **Express**
 * **Web-push**
+
+## Trabajo en conjunto con: 🚀
+
+* [Fernando Checchi](https://github.com/FernandoChecchi)
