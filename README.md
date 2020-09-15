@@ -4,6 +4,6 @@
 
 ## Construido con 🛠️
 
-* **Node.JS*
-* **Express*
-* **Web-push*
+* **Node.JS**
+* **Express**
+* **Web-push**
