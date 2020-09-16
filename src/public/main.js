@@ -1,4 +1,4 @@
-const PUBLIC_VAPID_KEY="BDjnT0sSxAMsNRvyGeG3UMI4Li4qz1qxh6d6ionUo6H3xtBAAYLiufdW6O72onAJJJgtB5NqJkUO3g9pd8ycz_s"
+const PUBLIC_VAPID_KEY="BDjnT0sSxAMsNRvyGeG3UMI4Li4qz1qxh6d6ionUo6H3xtBAAYLiufdW6O72onAJJJgtB5NqJkUO3g9pd8ycz_s";
 
 function urlBase64ToUint8Array(base64String) {
     const padding = '='.repeat((4 - base64String.length % 4) % 4);
@@ -26,7 +26,7 @@ const subscription = async () => {
         userVisibleOnly: true,
         applicationServerKey: urlBase64ToUint8Array(PUBLIC_VAPID_KEY)
     });
-
+    console.log(JSON.stringify(subscription))
     await fetch("/subscription", {
         method: 'POST',
         body: JSON.stringify(subscription),
