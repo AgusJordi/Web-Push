@@ -23,10 +23,6 @@ Al ingresar a "localhost:3000" le aparecera una notifiacion instanteneamente
 * **Express**
 * **Web-push**
 
-## Trabajo en conjunto con: 🚀
-
-* [Fernando Checchi](https://github.com/FernandoChecchi)
-
 
 ## Objetivo 📌
 Realizar practicas con Node.Js
